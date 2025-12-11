@@ -1,7 +1,7 @@
-export default function SimpleCard(){
+export default function SimpleCard(props){
     return (
         <>
-        <h2>Hallo World!</h2>
+        <h2>{props.message}</h2>
         </>
     );
 }
